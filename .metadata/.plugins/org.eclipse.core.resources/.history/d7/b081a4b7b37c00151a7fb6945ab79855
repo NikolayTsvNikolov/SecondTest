@@ -13,12 +13,6 @@ public class Developing {
 		}
 		return validData;
 	}
-	
-	public static void getVision() {
-		
-		System.out.println("-----------------------------------------------");
-		
-	}
 
 	public static int[] sortNumbers(int[] duration) {
 
@@ -81,9 +75,10 @@ public class Developing {
 						i--;
 					} else {
 						sortNumbers(Ai);
-						getVision();
+						System.out.println("-----------------------------------------------");
 						System.out.println("Duration of priority task is "+ Ai[k - 1] + " in minutes");
-						getVision();
+						System.out.println("-----------------------------------------------");
+
 					}
 
 				}
